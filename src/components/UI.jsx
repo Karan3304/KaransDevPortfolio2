@@ -45,7 +45,7 @@ export const UI = () => {
 
   useEffect(() => {
     if (canPlayAudio || page > 0) {
-      const audio = new Audio("/audios/page-flip-01a.mp3");
+      const audio = new Audio("src/assets/audios/page-flip-01a.mp3");
       audio.play();
     }
   }, [page, canPlayAudio]);
@@ -57,7 +57,7 @@ export const UI = () => {
     className="pointer-events-auto mt-10 ml-10 "
     href="https://github.com/Karan3304"
   >
-    <img className="w-10 sm:w-20 rounded-full duration-300 hover:shadow-[0_0_20px_4px_rgba(255,255,255,0.8)]" src="/images/github_image.png" />
+    <img className="w-10 sm:w-20 rounded-full duration-300 hover:shadow-[0_0_20px_4px_rgba(255,255,255,0.8)]" src="src/assets/images/github_image.png" />
   </a>
   <div className="w-full overflow-auto pointer-events-auto flex justify-center sm:items-end mb-10 sm:mb-0">
     <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
